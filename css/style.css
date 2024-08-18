@@ -92,12 +92,12 @@ background-color: rgba(0, 0, 0, 0.9);
     z-index: 2;
     color: white;
     text-align: left;
-    top: 30%;
-    width: 35%;
+    top: 25%;
+    width: 38%;
     display: flex;
     flex-direction: column;
     margin-left: 5%;
-    row-gap: 25px;
+    row-gap: 20px;
 }
 
 .main-title h1 {
@@ -108,6 +108,7 @@ background-color: rgba(0, 0, 0, 0.9);
 .main-title p {
     margin: 0;
     font-weight: 400;
+    line-height: 150%;
 }
 /* MAIN TITLE END */
 
@@ -120,7 +121,7 @@ background-color: rgba(0, 0, 0, 0.9);
     max-width: 90%;
     margin: 0 auto;
     gap: 10px;
-    top: 35%;
+    top: 30%;
     z-index: 2;
 }
 
@@ -177,8 +178,13 @@ background-color: rgba(0, 0, 0, 0.9);
     transition: transform 0.3s ease;
 }
 
-.popup-content h1 {
+.popup-content h1{
     color: gold;
+    width: 50%;
+}
+
+.popup-content p {
+    width: 50%;
 }
 
 .popup.show {
@@ -247,7 +253,7 @@ background-color: rgba(0, 0, 0, 0.9);
     }
 
     .navbar-menu {
-        width: 30%;
+        width: 40%;
     }
 
     .main-title {
